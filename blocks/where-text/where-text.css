@@ -4,3 +4,9 @@
   justify-content: center;
   width: 60%;
 }
+
+@media screen and (max-width: 768px) {
+  .where-text {
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.options-item__title {
+  font-size: 38px;
+  margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .options-item__title {
+    font-size: 30px;
+  }
+}

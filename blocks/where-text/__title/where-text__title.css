@@ -1,9 +1,15 @@
 .where-text__title {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 13px;
-  line-height: 25px;
-  color: #FED1AE;
+  font-size: 14px;
+  color: #FECDA7;
   margin: 0;
+  word-spacing: 5px;
 }
 
+@media screen and (max-width: 550px) {
+  .where-text__title {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

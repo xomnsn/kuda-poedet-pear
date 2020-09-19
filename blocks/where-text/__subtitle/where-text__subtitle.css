@@ -1,6 +1,20 @@
 .where-text__subtitle {
   font-weight: bold;
   font-size: 40px;
-  line-height: 45px;
+  line-height: 125%;
   width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .where-text__subtitle {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .where-text__subtitle {
+    font-size: 30px;
+    width: 90%;
+    margin: 40px auto;
+  }
 }

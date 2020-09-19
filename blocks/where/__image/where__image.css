@@ -2,3 +2,12 @@
   width: 400px;
   height: 400px;
 }
+
+@media screen and (max-width: 768px) {
+  .where__image {
+    object-fit: cover;
+    width: 100%;
+    align-self: flex-start;
+    object-position: top;
+  }
+}
