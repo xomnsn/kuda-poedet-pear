@@ -2,6 +2,30 @@
 @import url('../vendor/normalize.css');
 
 /* Fonts */
-@import url('../vendor/fonts/Source-Code-Pro/source-code-pro.css');
+@import url('../vendor/fonts/Gilroy/Gilroy.css');
+@import url('../vendor/fonts/Source-Code-Pro/Source-Code-Pro.css');
 
 /* Components */
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/menu/menu__links/menu__links.css');
+@import url('../blocks/menu/menu__link/menu__link.css');
+@import url('../blocks/header/__complaint/header__complaint.css');
+@import url('../blocks/where/where.css');
+@import url('../blocks/where/__image/where__image.css');
+@import url('../blocks/where-text/where-text.css');
+@import url('../blocks/where-text/__title/where-text__title.css');
+@import url('../blocks/where-text/__subtitle/where-text__subtitle.css');
+@import url('../blocks/options/options.css');
+@import url('../blocks/options/__image/options__image.css');
+@import url('../blocks/options-items/options-items.css');
+@import url('../blocks/options-item/option-item.css');
+
+@import url('../blocks/quotes/quotes.css');
+@import url('../blocks/quotes/__subtitle/quotes__subtitle.css');
+@import url('../blocks/quotes/__title/quotes__title.css');
+@import url('../blocks/quotes/__table/quotes__table.css');
+@import url('../blocks/quotes/__table-item/quotes__table-item.css');
+@import url('../blocks/quotes/__quote/quotes__quote.css');
+@import url('../blocks/quotes/__quote-author/quotes__quote-author.css');
+@import url('../blocks/quotes/__quote-text/quotes__quote-text.css');

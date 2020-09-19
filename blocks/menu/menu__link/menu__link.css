@@ -1,0 +1,9 @@
+.menu__link {
+  text-decoration: none;
+  color: black;
+  margin: auto 30px auto;
+}
+
+.menu__link:first-child {
+  margin-left: 0;
+}
