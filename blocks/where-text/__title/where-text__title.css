@@ -1,0 +1,9 @@
+.where-text__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 25px;
+  color: #FED1AE;
+  margin: 0;
+}
+
