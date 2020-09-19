@@ -1,0 +1,10 @@
+.header {
+  padding-top: 60px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 900;
+  margin: auto;
+}
