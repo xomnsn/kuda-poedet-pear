@@ -1,7 +1,12 @@
 .options-item__title {
   font-size: 38px;
   margin: 0;
-  transition: ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+  .options-item__title {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width: 550px) {
