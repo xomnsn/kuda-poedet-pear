@@ -1,19 +1,28 @@
 .where {
   display: flex;
-  width: 90%;
-  margin: 100px auto 0;
-  transition: ease-in-out 0.3s;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 85px;
+  padding-bottom: 130px;
+  padding-right: 70px;
+}
+
+@media screen and (max-width: 1024px) {
+  .where {
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .where {
     flex-direction: column;
+    padding-bottom: 70px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .where {
     width: 100%;
-    margin-top: 60px;
   }
 }

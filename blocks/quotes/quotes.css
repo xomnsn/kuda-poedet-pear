@@ -5,3 +5,21 @@
   padding-top: 135px;
   padding-bottom: 150px;
 }
+
+@media screen and (max-width: 1024px) {
+  .quotes {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quotes {
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .quotes {
+    padding-bottom: 50px;
+  }
+}

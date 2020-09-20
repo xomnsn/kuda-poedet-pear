@@ -1,9 +1,9 @@
-.where-text {
+.where__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
-  transition: ease-in-out 0.3s;
+  max-width: 530px;
+  margin-right: 40px;
 }
 
 @media screen and (max-width: 768px) {
