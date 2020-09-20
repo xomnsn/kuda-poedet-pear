@@ -7,6 +7,10 @@
 
 /* Components */
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__block/page__block.css');
+@import url('../blocks/page/__block/_size/page__block_size_m.css');
+@import url('../blocks/page/__block/_size/page__block_size_xl.css');
+
 @import url('../blocks/header/header.css');
 @import url('../blocks/menu/menu__links/menu__links.css');
 @import url('../blocks/menu/menu__link/menu__link.css');
@@ -34,7 +38,6 @@
 @import url('../blocks/quotes/__subtitle/quotes__subtitle.css');
 @import url('../blocks/quotes/__title/quotes__title.css');
 @import url('../blocks/quotes/__table/quotes__table.css');
-@import url('../blocks/quotes/__table-item/quotes__table-item.css');
 @import url('../blocks/quotes/__quote/quotes__quote.css');
 @import url('../blocks/quotes/__quote-author/quotes__quote-author.css');
 @import url('../blocks/quotes/__quote-text/quotes__quote-text.css');
