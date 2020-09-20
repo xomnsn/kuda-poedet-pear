@@ -1,0 +1,15 @@
+.quotes__quote-text {
+  font-family: 'Gilroy', 'Lucida Sans Unicode', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: 010101;
+  word-spacing: 4px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .quotes__quote-text {
+    max-width: 400px;
+  }
+}
