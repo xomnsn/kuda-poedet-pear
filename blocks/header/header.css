@@ -1,18 +1,9 @@
 .header {
-  padding-top: 60px;
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 900;
-  margin: auto;
-  transition: ease-in-out 0.3s;
+  padding-top: 50px;
 }
 
 @media screen and (max-width: 550px) {
   .header {
     padding-top: 30px;
-    font-size: 16px;
   }
 }
