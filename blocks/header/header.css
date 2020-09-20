@@ -7,4 +7,12 @@
   line-height: 25px;
   font-weight: 900;
   margin: auto;
+  transition: ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    padding-top: 30px;
+    font-size: 16px;
+  }
 }

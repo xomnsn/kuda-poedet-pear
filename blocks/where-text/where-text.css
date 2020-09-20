@@ -3,4 +3,11 @@
   flex-direction: column;
   justify-content: center;
   width: 60%;
+  transition: ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .where-text {
+    width: 100%;
+  }
 }

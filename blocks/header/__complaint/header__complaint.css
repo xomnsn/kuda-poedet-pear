@@ -2,4 +2,15 @@
   text-decoration: none;
   color: black;
   margin: 0;
+  transition: ease 0.3s;
+}
+
+.header__complaint:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 550px) {
+  .header__complaint {
+    align-self: center;
+  }
 }

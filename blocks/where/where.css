@@ -2,5 +2,18 @@
   display: flex;
   width: 90%;
   margin: 100px auto 0;
+  transition: ease-in-out 0.3s;
 }
 
+@media screen and (max-width: 768px) {
+  .where {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .where {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
