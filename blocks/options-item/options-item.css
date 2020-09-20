@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 80px auto;
+  transition: ease-in-out 0.3s;
 }
 
 @media screen and (max-width: 768px) {
